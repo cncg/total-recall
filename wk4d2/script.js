@@ -16,24 +16,38 @@ let b = a;
 ? What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?    you should spent most of the time , i'd say 80% thinking about how to tackle the problem , the rest will be coding and finding the bugs along the way while working live, to be more efficient
 */
 
-/*      B - Strings
-Create a variable called firstVariable
-Assign it the value of the string "Hello World"
-Change the value of this variable to some number
-Store the value of firstVariablein a new variable called secondVariable
-Change the value of secondVariableto any string.
-What is the value of firstVariable?
-Create a variable called yourNameand set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourNameso that it returns a new string with them concatenated.
-ex: Hello, my name is Jean Valjean
+/*  B - Strings
+? Create a variable called firstVariable
+let firstVariable;
+
+? Assign it the value of the string "Hello World"
+firstVariable = "Hello World";
+
+? Change the value of this variable to some number
+firstVariable = 14;
+
+? Store the value of firstVariable in a new variable called secondVariable
+let secondVariable = firstVariable
+
+? Change the value of secondVariable to any string.
+secondVariable = "Total Recall" ;
+
+? What is the value of firstVariable?
+The value of the firstVariable is the number 14; 
+
+? Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
+let yourName = "Chelsea";
+let greeting ="Hello, my name is " + yourName;
+console.log(greeting)
 */
 
-// D. The farm
+// D- The farm
 
-let animal = "2";
+// let animal = "2";
 
-if (animal === "") {
-  console.log("You're not a cow");
-} else animal === "cow";
-{
-  console.log("moooooooo");
-}
+// if (animal === "") {
+//   console.log("You're not a cow");
+// } else animal === "cow";
+// {
+//   console.log("moooooooo");
+// }
