@@ -65,5 +65,14 @@ if (animal.toLowerCase() === "cow") {
   console.log("You're not cow");
 }
 
+// * ==============================================================================
+//  E - Drivers Ed
+let userAge = 12;
 
-//  E - Drivers Ed 
+if (userAge >= 16) {
+  console.log("Here are the keys!");
+} else {
+  console.log("Sorry, you're too young.");
+}
+
+// * ==============================================================================
