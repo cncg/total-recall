@@ -1,3 +1,4 @@
+// * ==============================================================================
 /*      A - q + a
 ? How do we assign a value to a variable?     you use the let, const or var keywords to declare a variable. However var is not the best practice.
 
@@ -16,6 +17,7 @@ let b = a;
 ? What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?    you should spent most of the time , i'd say 80% thinking about how to tackle the problem , the rest will be coding and finding the bugs along the way while working live, to be more efficient
 */
 
+// * ==============================================================================
 /*  B - Strings
 ? Create a variable called firstVariable
 let firstVariable;
@@ -41,13 +43,27 @@ let greeting ="Hello, my name is " + yourName;
 console.log(greeting)
 */
 
+// * ==============================================================================
+// ! NOT COMPLETE! COME BACK IT         C - Booleans
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = "Kevin";
+
+console.log(a < b);
+console.log(c > d);
+console.log("Name" === "Name");
+
+// * ==============================================================================
 // D- The farm
+const animal = "Cow";
 
-// let animal = "2";
+if (animal.toLowerCase() === "cow") {
+  console.log("moooooo");
+} else {
+  console.log("You're not cow");
+}
 
-// if (animal === "") {
-//   console.log("You're not a cow");
-// } else animal === "cow";
-// {
-//   console.log("moooooooo");
-// }
+
+//  E - Drivers Ed 
