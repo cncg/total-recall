@@ -107,22 +107,24 @@
 // ? part two, b - get even
 // ? Print out the numbers that are within the range of 1 - 100 , log which are even
 
-for (let i = 1; i <= 100; i++) {
-  if (i % 2 === 0) {
-    console.log(i + " <== is an even number");
-  } else {
-    console.log(i);
-  }
-}
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i + " <== is an even number");
+//   } else {
+//     console.log(i);
+//   }
+// }
 
 // * ==============================================================================
 // ? part two, c - give me five
 // ? count from 0 to 100, if the number is a multiple of 5 print out high five
 
 for (let i = 0; i <= 100; i++) {
-  if (i % 5 === 0) {
-    console.log(`I found a ${i}. High Five!`);
-  } else {
-    console.log(i);
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log(`I found a ${i}. High five! Three is a crowd`);
+  } else if (i % 3 === 0) {
+    console.log(`I found a ${i}. Three is a crowd`);
+  } else if (i % 5 === 0) {
+    console.log(`I found a ${i}. High five!`);
   }
 }
