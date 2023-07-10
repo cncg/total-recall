@@ -103,9 +103,9 @@
 //   console.log(i);
 // }
 
-// * ==============================================================================
-// ? part two, b - get even
-// ? Print out the numbers that are within the range of 1 - 100 , log which are even
+// // * ==============================================================================
+// // ? part two, b - get even
+// // ? Print out the numbers that are within the range of 1 - 100 , log which are even
 
 // for (let i = 1; i <= 100; i++) {
 //   if (i % 2 === 0) {
@@ -115,16 +115,44 @@
 //   }
 // }
 
-// * ==============================================================================
-// ? part two, c - give me five
-// ? count from 0 to 100, if the number is a multiple of 5 print out high five
+// // * ==============================================================================
+// // ? part two, c - give me five
+// // ? count from 0 to 100, if the number is a multiple of 5 print out high five
 
-for (let i = 0; i <= 100; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log(`I found a ${i}. High five! Three is a crowd`);
-  } else if (i % 3 === 0) {
-    console.log(`I found a ${i}. Three is a crowd`);
-  } else if (i % 5 === 0) {
-    console.log(`I found a ${i}. High five!`);
-  }
-}
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(`I found a ${i}. High five! Three is a crowd`);
+//   } else if (i % 3 === 0) {
+//     console.log(`I found a ${i}. Three is a crowd`);
+//   } else if (i % 5 === 0) {
+//     console.log(`I found a ${i}. High five!`);
+//   }
+// }
+
+// // * ==============================================================================
+// // ? part two, d - savings account
+// let bankAccount = 0;
+// for (let i = 1; i <= 10; i++) {
+//   bankAccount += i;
+// }
+// console.log(bankAccount);
+
+// // ? bonus
+// let bonus = 0;
+// for (let pay = 1; pay <= 100; pay++) {
+//   bonus = bonus + pay * 2;
+//   console.log(bonus);
+// }
+
+// // * ==============================================================================
+// // ? Part three , arrays & control flow Q+A
+// // ? what are the things in an array called?
+// // they are called elements or array elements
+
+// // ? Do arrays guarantee the elements will be in order ?
+// // they will be stored in the order they were added
+
+// // ? What real-life thing could you model with an array?
+// // you can model many things, like names in a roster, a grocery item list, list of followers or string messages, inventory. It can model a lot!
+
+// // * ==============================================================================
