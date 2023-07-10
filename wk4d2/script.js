@@ -340,5 +340,11 @@ console.log(isVowel("H"));
 console.log(isVowel("E"));
 
 // * ==============================================================================
+// ? PT4 E - getTwoLengths
 
-// ? PT4 E -
+function getTwoLengths(string1, string2) {
+  return [string1.length, string2.length];
+}
+console.table(getTwoLengths("I hate ", "being dehydrated"));
+
+// * ==============================================================================
