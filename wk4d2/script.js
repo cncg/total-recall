@@ -444,4 +444,12 @@ userLocation.location = "New York"; // passing in the value for the key location
 console.log(user); // log the original user object
 console.log(userLocation); // log the new copied object reflecting the new location key and value
 
+// * ==============================================================================
+// ? PT5 D - Shopaholic
+// ? our user has purchased an item, they have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased array
+// ? Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased // ?array.
+// ? Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
+// ? Console.log just the "Merino jodhpurs" from the purchased array.
 
+user.purchased.push("carbohydrates", "peace of mind", "Merino jodhpurs");
+console.log(user.purchased[2]);
