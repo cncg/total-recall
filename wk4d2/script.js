@@ -318,3 +318,25 @@ function calculateCube(sideOfCube) {
 console.log(calculateCube(5));
 
 // * ==============================================================================
+// ? PT$ D - isVowel
+function isVowel(letter) {
+  let string = letter.toLowerCase();
+  if (
+    string === "a" ||
+    string === "e" ||
+    string === "i" ||
+    string === "o" ||
+    string === "u"
+  ) {
+    console.log(`${string} - This is a vowel`);
+    return true;
+  } else {
+    console.log(`${string} - This is not a vowel`);
+    return false;
+  }
+}
+console.log(isVowel("c"));
+console.log(isVowel("H"));
+console.log(isVowel("E"));
+
+// * ==============================================================================
