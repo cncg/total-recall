@@ -479,3 +479,45 @@ user.friend.purchased.push("The One Ring", "A latte");
 console.log(user.friend.purchased[1]);
 
 // * ==============================================================================
+// ? PT5 F - Loops
+// ? Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
+// ? Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
+
+for (let i = 0; i < user.purchased.length; i++) {
+  console.log(`users purchased item: ${user.purchased[i]}`);
+}
+
+for (let s = 0; s < user.friend.purchased.length; s++) {
+  console.log(`users friend purchased item: ${user.friend.purchased[s]}`);
+}
+
+// * ==============================================================================
+// ? PT5 G - Functions can operate on objects
+
+// ? Write a single function updateUserthat takes no parameters. When the function is run, it should:
+// * it should increment the user's age by 1
+// * make the user's name uppercase
+
+// ? The function does not need a return statement, it will merely modify the user object.
+
+// ? Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called.
+// ? Call your oldAndLoud function with user as the argument.
+
+function updateUser() {
+  user.age++;
+  user.name = user.name.toUpperCase();
+  console.log(user.age);
+  console.log(user.name);
+}
+
+updateUser();
+console.log(updateUser());
+
+function oldAndLoud(person) {
+  person.age++;
+  person.name.toUpperCase();
+  console.log(person.age);
+  console.log(user.name.toUpperCase());
+}
+
+console.log(oldAndLoud(user));
