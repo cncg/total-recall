@@ -392,3 +392,15 @@ console.log(result);
 // ? PT4 H - printLongestWord
 // ? Write a function printLongestWord that accepts a single argument, an array of strings.
 // ? The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+
+function printLongestWord(stringArray) {
+  let longestWord = "";
+  for (let w = 0; w < stringArray.length; w++) {
+    if (stringArray[w].length > longestWord.length) {
+      longestWord = stringArray[w];
+    }
+  }
+  console.log(longestWord);
+}
+
+printLongestWord(["spongsebob", "rat", "theWorldsLongestWordEver"]);
