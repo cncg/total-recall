@@ -402,5 +402,22 @@ function printLongestWord(stringArray) {
   }
   console.log(longestWord);
 }
+printLongestWord(["spongebob", "rat", "theWorldsLongestWordEver"]);
 
-printLongestWord(["spongsebob", "rat", "theWorldsLongestWordEver"]);
+// * ==============================================================================
+// ? PT5 Objects - A - Make a user object
+// ? create an object called user
+// ? Write in to the object the key-value pairs for name, email , age and purchased.
+// ? Set the value of purchased to an empty array.
+// ? Set the other values to whatever you would like.
+
+const user = {
+  name: "Chelz",
+  age: 23,
+  purchased: [],
+};
+
+// * ==============================================================================
+// ? PT5 B - Update the user
+// ? Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address
+// ? Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
