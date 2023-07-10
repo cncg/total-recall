@@ -416,6 +416,7 @@ const user = {
   email: "testmail@hotmail.com",
   purchased: [],
   age: 23,
+  location: "",
 };
 
 // * ==============================================================================
@@ -434,3 +435,13 @@ console.log(user); //log the original object
 console.log(updatedUserAge); // log the copy with the new reflected incremented age
 
 // * ==============================================================================
+// ? PT5 C - Adding keys and values
+// ? You have decided to add your user's location to the data that you want to collect.
+// ? Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
+
+let userLocation = { ...user }; // copying the original user object
+userLocation.location = "New York"; // passing in the value for the key location
+console.log(user); // log the original user object
+console.log(userLocation); // log the new copied object reflecting the new location key and value
+
+
