@@ -155,20 +155,34 @@
 // // ? What real-life thing could you model with an array?
 // // you can model many things, like names in a roster, a grocery item list, list of followers or string messages, inventory. It can model a lot!
 
-// * ==============================================================================
-// ? PT.3 B. Easy Does It
-// ? Create an array that contains three quotes and store it in a variable called quotes
+// // * ==============================================================================
+// // ? PT.3 B. Easy Does It
+// // ? Create an array that contains three quotes and store it in a variable called quotes
 
-let quotes = [
-  "The weak can never forgive. Forgiveness is the attribute of the strong - Ghandi",
-  "Nobody can hurt you without your permission - Ghandi",
-  "If you must die ill envy even the earth that wraps your body - Some Dude",
-];
-console.log(quotes);
+// let quotes = [
+//   "The weak can never forgive. Forgiveness is the attribute of the strong - Ghandi",
+//   "Nobody can hurt you without your permission - Ghandi",
+//   "If you must die ill envy even the earth that wraps your body - Some Dude",
+// ];
+// console.log(quotes);
 
-// * ==============================================================================
-// ? PT.3 C. Accessing Elements
-const randomThings = [1, 10, "Hello", true];
-console.log(randomThings[0]); // accessing the first element
-randomThings[2] = "World";
-console.log(randomThings);
+// //* ==============================================================================
+// // ? PT.3 C. Accessing Elements
+// const randomThings = [1, 10, "Hello", true];
+// console.log(randomThings[0]); // accessing the first element
+// randomThings[2] = "World";
+// console.log(randomThings);
+
+//* ==============================================================================
+// ? Pt.3 D - Change Values
+// ? Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// ? What would you write to access the 3rd element of the array?
+// ? Change the value of "Github" to "Octocat"
+// ?Add a new element, "Cloud City" to the array
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+ourClass.splice(4, 1, "Octocat");
+ourClass.push("Cloud City");
+console.log(ourClass);
+
+//* ==============================================================================
