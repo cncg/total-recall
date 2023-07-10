@@ -453,3 +453,29 @@ console.log(userLocation); // log the new copied object reflecting the new locat
 
 user.purchased.push("carbohydrates", "peace of mind", "Merino jodhpurs");
 console.log(user.purchased[2]);
+
+// * ==============================================================================
+// ? PT5 E - Object-within-object
+// ? Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
+// ? Console.log just the friend's name
+// ? Console.log just the friend's location
+// ? CHANGE the friend's age to 55
+// ? The friend has purchased "The One Ring". Use .push() to add "The One Ring" to the friend's purchased array.
+// ? The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
+// ? Console.log just "A latte" from the friend's purchased array.
+user.friend = {
+  name: "Sandy Cheeks",
+  age: 85,
+  location: "Philadelphia",
+  purchased: [],
+};
+console.log(user.friend.name);
+console.log(user.friend.location);
+
+user.friend.age = 55;
+console.table(user.friend);
+
+user.friend.purchased.push("The One Ring", "A latte");
+console.log(user.friend.purchased[1]);
+
+// * ==============================================================================
