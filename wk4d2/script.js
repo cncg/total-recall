@@ -412,12 +412,25 @@ printLongestWord(["spongebob", "rat", "theWorldsLongestWordEver"]);
 // ? Set the other values to whatever you would like.
 
 const user = {
-  name: "Chelz",
-  age: 23,
+  name: "John Fake",
+  email: "testmail@hotmail.com",
   purchased: [],
+  age: 23,
 };
 
 // * ==============================================================================
 // ? PT5 B - Update the user
 // ? Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address
 // ? Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
+
+const updateUserEmail = { ...user }; // kin order to update the value without changing the original user object i am making a copy of the object
+updateUserEmail.email = "newtestmail@hotmail.com"; // passing in the new value to the email key
+console.log(user); // log the original user object
+console.log(updateUserEmail); // log the new user object with updated value in the email key
+
+const updatedUserAge = { ...user }; // copy the user object
+updatedUserAge.age++; // increment the age key
+console.log(user); //log the original object
+console.log(updatedUserAge); // log the copy with the new reflected incremented age
+
+// * ==============================================================================
