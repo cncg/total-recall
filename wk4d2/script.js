@@ -310,3 +310,11 @@ printCool("Captain Jack Sparrow");
 
 // * ==============================================================================
 // ? PT4 C- calculate cube
+// ? Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+function calculateCube(sideOfCube) {
+  console.log(sideOfCube * sideOfCube * sideOfCube);
+  return sideOfCube * sideOfCube * sideOfCube;
+}
+console.log(calculateCube(5));
+
+// * ==============================================================================
