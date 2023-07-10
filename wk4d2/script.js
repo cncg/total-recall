@@ -185,20 +185,32 @@
 // ourClass.push("Cloud City");
 // console.log(ourClass);
 
+// // * ==============================================================================
+// // ? PT.3 E - mix it up
+// // ? Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+// // ? Remove the 5from the beginning of the array.
+// // ? Add the string "Bob Marley"to the beginning of the array.
+// // ? Remove the string of your choice from the end of the array.
+// // ? Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+
+// const myArray = [5, 10, 500, 20];
+// myArray.push("Aegon", "Crisp"); // add requested string and string of choice
+// myArray.shift(0); // remove 0 index element from array = 5
+// myArray.unshift("Bob Marley");
+// myArray.splice(4, 1); // remove element of my choice from the end = aegon
+// myArray.reverse(); // this will mutate the array . mutating is the act of making changes or modifying an already existing array. By that definition, this method is mutating the array. the reverse method returned the array but reverses the array elements!
+// console.log(myArray);
+
 // * ==============================================================================
-// ? PT.3 E - mix it up
-// ? Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
-// ? Remove the 5from the beginning of the array.
-// ? Add the string "Bob Marley"to the beginning of the array.
-// ? Remove the string of your choice from the end of the array.
-// ? Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+// ? PT.3 F- Biggie Smalls
+// ? Create a variable that contains an integer.
+// ? Write an if ... else statement that:
+// ? console.log()s "little number" if the number is entered is less than 100
+// ? console.log()s big number if the number is greater than or equal to 100.
 
-const myArray = [5, 10, 500, 20];
-myArray.push("Aegon", "Crisp"); // add requested string and string of choice
-myArray.shift(0); // remove 0 index element from array = 5
-myArray.unshift("Bob Marley");
-myArray.splice(4, 1); // remove element of my choice from the end = aegon
-myArray.reverse(); // this will mutate the array . mutating is the act of making changes or modifying an already existing array. By that definition, this method is mutating the array. the reverse method returned the array but reverses the array elements!
-console.log(myArray);
-
-
+const biggieSmalls = 14;
+if (biggieSmalls < 100) {
+  console.log("little number");
+} else {
+  console.log("big number");
+}
