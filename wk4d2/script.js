@@ -46,7 +46,7 @@ let greeting = "Hello, my name is " + yourName;
 console.log(greeting);
 
 // * ==============================================================================
-// ! NOT COMPLETE! COME BACK IT         C - Booleans
+// ? C - Booleans
 const a = 4;
 const b = 53;
 const c = 57;
@@ -67,7 +67,7 @@ console.log(a === a && a !== d);
 console.log(48 == "48");
 
 // * ==============================================================================
-// ? D- The farm
+// ? D - The farm
 const animal = "Cow";
 
 if (animal.toLowerCase() === "cow") {
@@ -87,7 +87,7 @@ if (userAge >= 16) {
 }
 
 // * ==============================================================================
-// ? part two , a - loops , the basics
+// ? PT2 A - loops , the basics
 // ? Write a loop that will print out all the numbers from 0 to 10, inclusive
 for (let i = 0; i <= 10; i++) {
   console.log(i);
@@ -104,7 +104,7 @@ for (let i = 12; i <= 4000; i += 3) {
 }
 
 // * ==============================================================================
-// ? part two, b - get even
+// ? PT2 B - get even
 // ? Print out the numbers that are within the range of 1 - 100 , log which are even
 
 for (let i = 1; i <= 100; i++) {
@@ -116,7 +116,7 @@ for (let i = 1; i <= 100; i++) {
 }
 
 // * ==============================================================================
-// ? part two, c - give me five
+// ? PT2 C - give me five
 // ? count from 0 to 100, if the number is a multiple of 5 print out high five
 
 for (let i = 0; i <= 100; i++) {
@@ -130,7 +130,7 @@ for (let i = 0; i <= 100; i++) {
 }
 
 // * ==============================================================================
-// ? part two, d - savings account
+// ? PT2 D - savings account
 let bankAccount = 0;
 for (let i = 1; i <= 10; i++) {
   bankAccount += i;
@@ -145,7 +145,7 @@ for (let pay = 1; pay <= 100; pay++) {
 }
 
 // * ==============================================================================
-// ? Part three , arrays & control flow Q+A
+// ? PT3 , arrays & control flow Q+A
 // ? what are the things in an array called?
 // they are called elements or array elements
 
@@ -156,7 +156,7 @@ for (let pay = 1; pay <= 100; pay++) {
 // you can model many things, like names in a roster, a grocery item list, list of followers or string messages, inventory. It can model a lot!
 
 // * ==============================================================================
-// ? PT.3 B. Easy Does It
+// ? PT.3 B - Easy Does It
 // ? Create an array that contains three quotes and store it in a variable called quotes
 
 let quotes = [
@@ -167,7 +167,7 @@ let quotes = [
 console.log(quotes);
 
 //* ==============================================================================
-// ? PT.3 C. Accessing Elements
+// ? PT.3 C - Accessing Elements
 const randomThings = [1, 10, "Hello", true];
 console.log(randomThings[0]); // accessing the first element
 randomThings[2] = "World";
@@ -202,7 +202,7 @@ myArray.reverse(); // this will mutate the array . mutating is the act of making
 console.log(myArray);
 
 // * ==============================================================================
-// ? PT.3 F- Biggie Smalls
+// ? PT.3 F - Biggie Smalls
 // ? Create a variable that contains an integer.
 // ? Write an if ... else statement that:
 // ? console.log()s "little number" if the number is entered is less than 100
@@ -216,7 +216,7 @@ if (biggieSmalls < 100) {
 }
 
 // * ==============================================================================
-// ? Pt.3 G- Monkey in The Middle
+// ? Pt.3 G - Monkey in The Middle
 // ? Write an if else statement ..
 // ? console.log() little number if the number entered is less than 5
 // ? if the number entered is more than 10, log big number
@@ -232,7 +232,7 @@ if (monkey < 5) {
 }
 
 // * ==============================================================================
-// ? PT.3 H-  What's in Your Closet?
+// ? PT.3 H -  What's in Your Closet?
 // ? What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" to the console.
 // ? Kristyn just bought some sweet shades! Add "raybans"to her closet after "yellow knit hat".
 // ? Kristyn spilled coffee on her hat... modify this item to read "stained knit hat"instead of yellow.
@@ -294,7 +294,7 @@ thomsCloset[1][2] = "Footie Pajamas";
 console.table(thomsCloset);
 
 // * ==============================================================================
-// ?  PT.4 Functions A- printGreeting
+// ?  PT.4 Functions A - printGreeting
 
 function printGreeting(name) {
   console.log(`Hello there, ${name}!`);
@@ -309,7 +309,7 @@ function printCool(name) {
 printCool("Captain Jack Sparrow");
 
 // * ==============================================================================
-// ? PT4 C- calculate cube
+// ? PT4 C - calculate cube
 // ? Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
 function calculateCube(sideOfCube) {
   console.log(sideOfCube * sideOfCube * sideOfCube);
@@ -340,3 +340,5 @@ console.log(isVowel("H"));
 console.log(isVowel("E"));
 
 // * ==============================================================================
+
+// ? PT4 E -
