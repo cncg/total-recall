@@ -360,3 +360,35 @@ function getMultipleLengths(stringsArray) {
 let strings = ["blue", "black", "green", "purple", "yellow", "red"];
 let lengths = getMultipleLengths(strings);
 console.table(lengths);
+
+// * ==============================================================================
+// ? PT4 G- maxOfThree
+// ? Define a function maxOfThree that takes three numbers as arguments and returns the largest of them.
+// ? If all numbers are the same, it doesn't matter which one is returned.
+// ? If the two largest numbers are the same, one of them should be returned.
+//? Be sure to test it with larger values in each of the three locations.
+
+function maxOfThree(num1, num2, num3) {
+  let max = num1;
+
+  if (num2 > max) {
+    max = num2;
+  }
+
+  if (num3 > max) {
+    max = num3;
+  }
+
+  return max;
+}
+let num1 = 10;
+let num2 = 25;
+let num3 = 15;
+let result = maxOfThree(num1, num2, num3);
+console.log(result);
+// ! honestly i don't even know how i did this but id love to go over it !
+
+// * ==============================================================================
+// ? PT4 H - printLongestWord
+// ? Write a function printLongestWord that accepts a single argument, an array of strings.
+// ? The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
