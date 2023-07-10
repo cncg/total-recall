@@ -3,7 +3,7 @@ for (let i = 1; i <= 20; i++) {
   console.log(i);
 }
 
-//======================================
+//* ======================================
 // ? Get Even - write a for loop that will log only the even numbers 0 through 200
 for (let evenNum = 0; evenNum <= 200; evenNum++) {
   if (evenNum % 2 === 0) {
@@ -11,7 +11,7 @@ for (let evenNum = 0; evenNum <= 200; evenNum++) {
   }
 }
 
-//======================================
+// * ======================================
 // ? Fizz Buzz Write a Javascript Application that logs all numbers from 1 - 100.
 // ? If a number is divisible by 3, log "Fizz" instead of the number.
 // ? If a number is divisible by 5, log "Buzz" instead of the number.
@@ -28,7 +28,7 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
-//=====================================
+//* =====================================
 // ? Wild Wild Life - Instructions below
 //? Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
 //? Plantee just had her birthday; change Plantee's array to reflect her being a year older.
@@ -51,7 +51,7 @@ const dart = ["Dart", "Demogorgan Dog", 2, "Upside Down"];
 dart.push("Hawkins");
 console.log(dart);
 
-//======================================
+// * ======================================
 // ? Yell at the Ninja Turtles
 // ? Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo).
 // ? Use a for of loop to call toUpperCase() on each of them and print out the result.
@@ -62,7 +62,7 @@ for (let turtle of ninjaTurtles) {
   console.log(uppercaseName);
 }
 
-//======================================
+// * ======================================
 // ? Methods Revisited - too many damn steps look at the link
 const favMovies = [
   "Jaws",
@@ -109,7 +109,7 @@ console.log(favMovies[14]); // console log the index of fast and furious
 
 console.table(favMovies);
 
-//======================================
+// * ======================================
 // ? Where is Waldo
 // ? Remove Eggbert (hint look at the slice/splice methods).
 // ? Change "Neff" to "No One".
@@ -129,3 +129,20 @@ whereIsWaldo[1][2] = "No One"; // change the name of the element to a new name
 
 console.log(whereIsWaldo[2][1][1]); // finding waldo, and console logging him :)
 console.table(whereIsWaldo);
+
+// * ======================================
+// ? Combine cats
+// ?Write a function combineCats that has two parameters mama, and papa. The function will take two arguments -- each a cat object.
+// ? Pass cat1and cat2as arguments to the combineCats function. The function should console.log them.
+
+let catArray = ["humans are dumb", "catnip > humans"];
+
+for (let i = 0; i <= 20; i++) {
+  let result = catArray[Math.floor(Math.random() * catArray.length)];
+  if (i % 2 === 0) {
+    console.log(result);
+  }
+  console.log("am catto hear me roar");
+}
+
+// * ======================================
