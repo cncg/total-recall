@@ -348,3 +348,15 @@ function getTwoLengths(string1, string2) {
 console.table(getTwoLengths("I hate ", "being dehydrated"));
 
 // * ==============================================================================
+// ? PT4 F - getMultipleLengths
+// ? Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+function getMultipleLengths(stringsArray) {
+  let lengths = [];
+  for (let i = 0; i < stringsArray.length; i++) {
+    lengths.push(stringsArray[i].length);
+  }
+  return lengths;
+}
+let strings = ["blue", "black", "green", "purple", "yellow", "red"];
+let lengths = getMultipleLengths(strings);
+console.table(lengths);
