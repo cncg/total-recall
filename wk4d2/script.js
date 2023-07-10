@@ -299,10 +299,20 @@
 // thomsCloset[1][2] = "Footie Pajamas";
 // console.table(thomsCloset);
 
-// * ==============================================================================
-// ?  PT.4 Functions A- printGreeting
+// // * ==============================================================================
+// // ?  PT.4 Functions A- printGreeting
 
-function printGreeting(name) {
-  console.log(`Hello there, ${name}!`);
+// function printGreeting(name) {
+//   console.log(`Hello there, ${name}!`);
+// }
+// printGreeting("Slimer");
+
+// * ==============================================================================
+// ? PT4 B - printCool
+
+function printCool(name) {
+  console.log(`${name} is cool`);
 }
-printGreeting("Slimer");
+printCool("Captain Jack Sparrow");
+
+// * ==============================================================================
