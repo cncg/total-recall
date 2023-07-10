@@ -173,16 +173,32 @@
 // randomThings[2] = "World";
 // console.log(randomThings);
 
-//* ==============================================================================
-// ? Pt.3 D - Change Values
-// ? Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
-// ? What would you write to access the 3rd element of the array?
-// ? Change the value of "Github" to "Octocat"
-// ?Add a new element, "Cloud City" to the array
+// // * ==============================================================================
+// // ? Pt.3 D - Change Values
+// // ? Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// // ? What would you write to access the 3rd element of the array?
+// // ? Change the value of "Github" to "Octocat"
+// // ?Add a new element, "Cloud City" to the array
 
-const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
-ourClass.splice(4, 1, "Octocat");
-ourClass.push("Cloud City");
-console.log(ourClass);
+// const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+// ourClass.splice(4, 1, "Octocat");
+// ourClass.push("Cloud City");
+// console.log(ourClass);
 
-//* ==============================================================================
+// * ==============================================================================
+// ? PT.3 E - mix it up
+// ? Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+// ? Remove the 5from the beginning of the array.
+// ? Add the string "Bob Marley"to the beginning of the array.
+// ? Remove the string of your choice from the end of the array.
+// ? Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+
+const myArray = [5, 10, 500, 20];
+myArray.push("Aegon", "Crisp"); // add requested string and string of choice
+myArray.shift(0); // remove 0 index element from array = 5
+myArray.unshift("Bob Marley");
+myArray.splice(4, 1); // remove element of my choice from the end = aegon
+myArray.reverse(); // this will mutate the array . mutating is the act of making changes or modifying an already existing array. By that definition, this method is mutating the array. the reverse method returned the array but reverses the array elements!
+console.log(myArray);
+
+
