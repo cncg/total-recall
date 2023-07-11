@@ -131,9 +131,7 @@ console.log(whereIsWaldo[2][1][1]); // finding waldo, and console logging him :)
 console.table(whereIsWaldo);
 
 // * ======================================
-// ? Combine cats
-// ?Write a function combineCats that has two parameters mama, and papa. The function will take two arguments -- each a cat object.
-// ? Pass cat1and cat2as arguments to the combineCats function. The function should console.log them.
+// ? Excited Kitten cats
 
 let catArray = ["humans are dumb", "catnip > humans"];
 
@@ -142,7 +140,8 @@ for (let i = 0; i <= 20; i++) {
   if (i % 2 === 0) {
     console.log(result);
   }
-  console.log("am catto hear me roar");
+  console.log("Love me, pet me! HSSSSSS!");
 }
 
 // * ======================================
+// ? find the Median
