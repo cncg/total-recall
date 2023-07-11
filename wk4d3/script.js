@@ -131,7 +131,7 @@ console.log(whereIsWaldo[2][1][1]); // finding waldo, and console logging him :)
 console.table(whereIsWaldo);
 
 // * ======================================
-// ? Excited Kitten cats
+// ? Excited Kitten
 
 let catArray = ["humans are dumb", "catnip > humans"];
 
@@ -145,3 +145,11 @@ for (let i = 0; i <= 20; i++) {
 
 // * ======================================
 // ? find the Median
+// ? Find the median number in the following nums array, then console.log that number.
+// ? hint if you check the length of the array / 2, you might get not get a whole number. In which case, look into Math.floor( // something )
+const nums = [
+  14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12,
+  17, 12, 71, 18, 15, 12,
+];
+let median = nums[Math.floor(nums.length / 2)];
+console.log(median);
